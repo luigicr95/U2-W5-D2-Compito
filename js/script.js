@@ -8,3 +8,5 @@ let container = document.getElementById("container");
 for (let i = 0; i < costs.length; i++) {
   container.innerHTML += `<button onclick="subtract(${costs[i]})"> EUR ${costs[i]} </button>`;
 }
+
+//Non sono riuscito a smuovermi dall'impostazione iniziale fornitami
